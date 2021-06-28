@@ -8,11 +8,5 @@
 import Foundation
 
 class CardStackViewModel {
-
-    var data:[String]
-
-    init() {
-        self.data = ApiService.request()
-    }
-
+    var cards = [CardView]()
 }
